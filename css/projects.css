@@ -1,0 +1,181 @@
+/* Your Custom Styles Here
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@font-face {
+	font-family: Avenir-Heavy;
+	src: url('../fonts/Avenir-Heavy.otf');
+}
+
+@font-face {
+	font-family: Avenir-Black;
+	src: url('../fonts/Avenir-Black.otf');
+}
+
+@font-face {
+	font-family: AvenirLTStd-Medium;
+	src: url('../fonts/AvenirLTStd-Medium.otf');
+}
+
+@font-face {
+	font-family: AvenirLTStd-Medium;
+	src: url('../fonts/Avenir-Book.otf');
+}
+
+body {
+	background:#F0F0F0;
+}
+
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-family: Avenir-Book, sans-serif;
+	color: #808080;
+  line-height: 1.4em;
+}
+
+
+/*img {width:100%;height:auto;}*/
+
+header {
+	height: 40px;
+	background-color: rgba(0, 0, 0, 0);
+	position: fixed;
+	width: 100%;
+}
+
+a {
+  color: #8c8c8c; }
+a:hover {
+  color: #bfbfbf; }
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+
+
+  }
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+
+  }
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+
+  }
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+
+  }
+
+
+	header {
+		height: 40px;
+		background-color: rgba(0, 0, 0, 0);
+		position: relative;
+		width: 100%;
+	}
+
+	header h1 {
+		float: left;
+		font-size: 1.25em;
+		padding-left: 1.5em;
+		position: relative;
+	  top: 10px;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		color: #fff;
+	}
+
+	header ul {
+		float:right;
+		margin-right: 25px;
+		margin-top: 8px;
+	}
+
+	header ul li {
+		float:left;
+		margin-right: 1em;
+		text-transform: uppercase;
+		color: #fff;
+		position: relative;
+		font-family: Avenir-Heavy, sans-serif;
+	}
+
+	header a {
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #aaa;
+		position: relative;
+		font-family: Avenir-Heavy, sans-serif;
+	}
+
+	header a:hover {
+		color: #fff;
+	}
+
+
+  h2{
+  float:left;
+  font-size: 1.25em;
+  margin-top: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+	margin-bottom: 4px;
+
+}
+
+h2, p {
+	animation: fadein 3s;
+}
+
+  h3{
+   margin-top: 60px;
+   padding-left: 30px;
+   font-size: 1.25em;
+  }
+
+	.project {
+		padding-top: 5em;
+		margin-bottom: 5em;
+	}
+
+
+	@keyframes fadein {
+  	from { opacity: 0}
+  	to   { opacity: 1}
+	}
+
+	.project img{
+		margin-bottom: 25px;
+	}
+
+	.project iframe {
+		margin-bottom: 25px;
+	}
+
+  .the-brief {
+    padding-top: 75px;
+		font-family: Avenir-Black, AvenirLTStd-Medium, Avenir-Heavy, sans-serif;
+  }
+	.about {
+	 padding-top: 5em;
+	}
+	.video {
+		position: relative;
+		height: 0;
+		padding-bottom: 56.25%;
+		margin-bottom: 25px;
+	}
+	.video iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+  #process{
+    margin-left: 22em;
+  }
